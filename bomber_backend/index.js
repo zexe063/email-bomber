@@ -16,7 +16,7 @@ const transporter = nodemailer.createTransport({
 })
 
 function randomotp(){
-    const value = "1234567890";
+    const value = "12345678900";
     let otp = "";
     for(i=0; i<8; i++){
         otp = otp + Math.floor(Math.random()*10);
