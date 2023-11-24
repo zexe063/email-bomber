@@ -26,7 +26,7 @@ function App(){
    async function set(){
 
     if(boolen && msg <numbervalue.current.value){
-         const data = await axios.post("http://localhost:9000",{
+         const data = await axios.post("https://email-bomber-backend.vercel.app",{
           email:iref.current.value
          });
     
