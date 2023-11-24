@@ -24,6 +24,10 @@ function randomotp(){
     return otp;
 }
 
+server.get("/",(req,res)=>{
+    res.send("helo bomber app")
+})
+
 server.post("/",async(req,res)=>{
    try{
     const otp = randomotp()
